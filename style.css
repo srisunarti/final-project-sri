@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+
+P {
+    line-height: 1.5em;
+}
+
+a:active {
+    background-color: transparent;
+}
+
+
+
+
+/* navbar */
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.nav-relative {
+    position: relative;
+    width: 84%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.nav-relative i {
+    color: steelblue;
+    padding-right: 10px;
+    font-size: 26px;
+    box-sizing: border-box;
+}
+
+.nav-relative a {
+    display: inline-block;
+    color: steelblue;
+    padding: 25px 0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.nav-absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.nav-absolute a {
+    display: inline-block;
+    padding: 26px 15px;
+    color: steelblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.nav-absolute a:hover {
+    color: dodgerblue;
+}
+
+
+
+/* Header */
+.header-main {
+    
+    box-sizing: border-box;
+}
+.header {
+    width: 84%;
+    margin:73px auto;
+    margin-bottom: 0;
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+}
+.header .title {
+    box-sizing: border-box;
+}
+.header .title h1 {
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+.header .title h1:first-of-type {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 0;
+}
+.header .title h2 {
+    color:steelblue;
+    font-size: 24px;
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+.header img {
+    width: 100%;
+}
+
+
+
+/* about */
+.about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    background-color: steelblue;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.about h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.about .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid white;
+    margin: 0 auto;
+}
+.about .card {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-column-gap: 5%;
+    box-sizing: border-box;
+}
+.about .card img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin:20px auto 20px auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-align: center;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.about .card .info {
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+
+/* experience */
+.experience {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.experience .card {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    /* grid-column-gap: 5%; */
+    box-sizing: border-box;
+}
+.experience .card .experience-info {
+    box-sizing: border-box;
+}
+.experience .card .experience-info h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: steelblue;
+    font-weight: normal;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.experience .card .experience-info .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid steelblue;
+    margin: 0 auto;
+}
+.experience .card .experience-info .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+}
+.experience .card .experience-info .container .col-1 h3 {
+    font-weight: normal;
+    margin: 0;
+}
+.experience .card .experience-info .container .col-1 h4 {
+    font-weight: normal;
+    
+}
+.experience .card .experience-info .container .col-2 h3 {
+    margin: 0 0 18px 0;
+}
+.experience .card .experience-info .container .col-2 h4 {
+    font-weight: normal;
+    margin: 0;
+}
+.experience .card .experience-info .container .col-2 h4 {
+    font-weight: normal;
+    margin: 0;
+}
+.experience .card .experience-info .container .col-2 .table {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 20%;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.experience .card .experience-info .container .col-2 .table .col-1 h4 {
+    line-height: 1.5em;
+    font-size: 14px;
+}
+.experience .card .experience-info .container .col-2 .table .col-2 h4 {
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.experience .card img {
+    width: 100%;
+}
+
+
+
+
+
+/* education */
+.education {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.education .card {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-template-rows: auto;
+    /* grid-column-gap: 5%; */
+    box-sizing: border-box;
+}
+.education .card .education-info {
+    display: grid;
+    box-sizing: border-box;
+}
+.education .card .education-info h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: steelblue;
+    font-weight: normal;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.education .card .education-info .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid steelblue;
+    margin: 0 auto;
+}
+.education .card .education-info .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    box-sizing: border-box;
+}
+.education .card .education-info .container h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+.education .card .education-info .container img {
+    width: 60px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.education .card img {
+    width: 100%;
+}
+
+
+
+
+/* skill */
+.skill {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.skill h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: grey;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.skill .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid grey;
+    margin: 0 auto;
+}
+.skill .container {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+    grid-row-gap: 16px;
+    box-sizing: border-box;
+}
+.skill .container i {
+    color:steelblue;
+    text-align: center;
+    font-size: 26px;
+}
+.skill .container h4 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Interest */
+.interest {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.interest h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: steelblue;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.interest .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid steelblue;
+    margin: 0 auto;
+}
+.interest .container {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+.interest .container .card {
+    margin: 20px;
+    background-color: steelblue;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+}
+.interest .container .card i {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.interest .container .card p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* Award */
+.award {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.award h2 {
+    margin: 0;
+    font-size: 38px;
+    text-align: center;
+    color: grey;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.award .garis {
+    width: 34px;
+    height: 32px;
+    border-top: 2px solid grey;
+    margin: 0 auto;
+}
+.award .container {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+.award .container i {
+    font-size: 70px;
+    color: steelblue;
+    text-align: center;
+}
+.award .container img {
+    width: 80%;
+    margin: 20px auto;
+    border: 4px solid steelblue;
+}
+
+
+
+
+
+
+
